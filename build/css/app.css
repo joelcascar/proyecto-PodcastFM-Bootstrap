@@ -12127,7 +12127,14 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .btn-header, .boton-plan {
+    max-width: 40%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  .btn-header, .boton-plan {
     display: inline-block;
+    max-width: 100%;
   }
 }
 
@@ -12150,7 +12157,7 @@ textarea.form-control-lg {
   max-width: 20rem;
   margin: 0 auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .site-header .logo {
     margin: 0;
   }
@@ -12161,7 +12168,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .site-header .contenido {
-    max-width: 50%;
+    max-width: 100%;
   }
 }
 @media (min-width: 992px) {
@@ -12218,17 +12225,17 @@ textarea.form-control-lg {
   display: block;
   margin-top: -1.4rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .beneficios .imagen {
     transition: transform 0.3s ease;
   }
 }
-@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+@media (min-width: 992px) and (prefers-reduced-motion: reduce) {
   .beneficios .imagen {
     transition: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .beneficios .imagen:hover {
     transform: scale(1.1) rotate(10deg);
   }
@@ -12276,18 +12283,18 @@ textarea.form-control-lg {
   padding: 16rem 4rem 4rem 4rem;
   border-bottom: 1px solid #e1e1e1;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .plan {
     border: none;
     transition: transform 0.3s ease-in;
   }
 }
-@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+@media (min-width: 992px) and (prefers-reduced-motion: reduce) {
   .plan {
     transition: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .plan:hover {
     transform: scale(1.1);
   }
@@ -12309,7 +12316,7 @@ textarea.form-control-lg {
   background-position: 50% 2rem;
   background-repeat: no-repeat;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .plan.negocio {
     z-index: 10;
     margin-top: -5rem;
@@ -12375,7 +12382,7 @@ textarea.form-control-lg {
   color: #fff;
   text-align: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .footer {
     text-align: left;
   }
@@ -12409,7 +12416,7 @@ textarea.form-control-lg {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .footer__widget {
     flex: 0 0 auto;
     width: 25%;
@@ -12422,7 +12429,7 @@ textarea.form-control-lg {
   width: 20rem;
   margin-bottom: 5rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .footer__logo {
     margin-bottom: 0;
   }

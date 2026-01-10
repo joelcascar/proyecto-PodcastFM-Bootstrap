@@ -7,7 +7,7 @@
     }
 
     .imagen{
-        @include media-breakpoint-up(md){
+        @include media-breakpoint-up(lg){
             @include transition(transform .3s ease);
             &:hover{
                 transform: scale(1.1) rotate(10deg);

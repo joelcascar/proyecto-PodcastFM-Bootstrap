@@ -12,7 +12,7 @@ $separacion: 5rem;
     padding: 16rem 4rem 4rem 4rem;
     border-bottom: 1px solid #e1e1e1;
 
-    @include media-breakpoint-up(md){
+    @include media-breakpoint-up(lg){
         border: none;
         @include transition(transform .3s ease-in);
         &:hover{
@@ -32,7 +32,7 @@ $separacion: 5rem;
 
     &.negocio{
         @include m.bg-icono("../img/icono_negocio.svg");
-        @include media-breakpoint-up(md){
+        @include media-breakpoint-up(lg){
             z-index: 10;
             margin-top: -#{$separacion};
             margin-bottom: -#{$separacion};
