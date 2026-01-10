@@ -12224,3 +12224,22 @@ textarea.form-control-lg {
     transform: scale(1.1) rotate(10deg);
   }
 }
+
+.estadisticas h2 {
+  display: inline-block;
+  margin-top: 5rem;
+  color: #313C4E;
+}
+@media (min-width: 768px) {
+  .estadisticas h2 {
+    margin-top: 0;
+  }
+}
+.estadisticas h2::after {
+  content: "";
+  background-color: #84D98C;
+  height: 1rem;
+  width: calc(100% + 1rem);
+  display: block;
+  margin-top: -1.4rem;
+}
