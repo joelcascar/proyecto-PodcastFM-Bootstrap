@@ -12329,3 +12329,43 @@ textarea.form-control-lg {
 .nuestros-planes {
   position: relative;
 }
+
+.testimoniales h2 {
+  display: inline-block;
+  margin-top: 5rem;
+  color: #313C4E;
+}
+@media (min-width: 768px) {
+  .testimoniales h2 {
+    margin-top: 0;
+  }
+}
+.testimoniales h2::after {
+  content: "";
+  background-color: #84D98C;
+  height: 1rem;
+  width: calc(100% + 1rem);
+  display: block;
+  margin-top: -1.4rem;
+}
+
+.testimonial {
+  border: 0.5rem solid #313C4E;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  padding: 2rem 2rem 2rem 6.5rem;
+  position: relative;
+}
+.testimonial:before {
+  content: "";
+  background-image: url(../img/comilla.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 4rem;
+  height: 5rem;
+  width: 5rem;
+  display: block;
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
+}
