@@ -3,6 +3,6 @@
 
 .crea-podcast{
     h2{
-        @include m.headingBorder($secondary,yellow);
+        @include m.headingBorder($secondary, $primary);
     }
 }
