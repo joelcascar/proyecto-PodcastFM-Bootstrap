@@ -23,3 +23,10 @@
         margin-top: -1.4rem;
     }
 }
+
+@mixin bg-icono($urlImagen){
+    background-image: url($urlImagen);
+    background-size: 10rem;
+    background-position: 50% 2rem;
+    background-repeat: no-repeat;
+}
