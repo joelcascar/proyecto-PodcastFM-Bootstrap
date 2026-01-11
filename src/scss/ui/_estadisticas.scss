@@ -1,8 +1,0 @@
-@use '../custom' as *;
-@use "base/mixins" as m;
-
-.estadisticas{
-    h2{
-        @include m.headingBorder($secondary, $primary);
-    }
-}
