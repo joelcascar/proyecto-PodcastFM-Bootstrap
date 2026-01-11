@@ -1,1 +1,5 @@
-node_modules
+src/
+node_modules/
+package.json
+package-lock.json
+build/css/app.css
